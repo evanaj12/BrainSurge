@@ -141,13 +141,25 @@ WELCOME;
 	<p>
 		Irene is a psychology student at the University of Texas in Austin. This is her life.
 	</p>
+	<p>
+		<dl><dt>Contact Info:</dt>
+		<dd>(512) 555-5555</dd>
+		<dd>irene.jae@brainsurge.com</dd>
+		</dl>
+	</p>
 	</div>
-	<br><br>
+	<br>
 
 	<div id="evan">
 	<h2>Evan Johnston</h2>
 	<p>
 		Evan is a junior at the University of Texas at Austin pursing a Bachelor of Arts in Economics and Psychology with certificates in computer science and business foundations. Regarding psychology, he has studied social, cognitive, developmental, and abnormal psych and is planning to graduate in 2016.
+	</p>
+	<p>
+		<dl><dt>Contact Info:</dt>
+		<dd>(512) 444-4444</dd>
+		<dd>evan.johnston@brainsurge.com</dd>
+		</dl>
 	</p>
 	</div>
 	

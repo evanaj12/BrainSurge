@@ -168,7 +168,7 @@ WELCOME;
 	$j=0;
 	$p=0;
 
-	for($k=1; $k<9; $k++){
+	for($k=1; $k<71; $k++){
 	
 		$question=$_POST["q".$k];
 		if($k%7===1){

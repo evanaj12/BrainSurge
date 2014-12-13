@@ -105,7 +105,7 @@ LOGIN;
 	else{	
 		print <<<WELCOME
 			<div id="welcome">
-				Welcome back, <a href="profile.php"><u><b>{$_COOKIE["name"]}</b></u></a>
+				Welcome back, <a href="profile.php"><u><b>{$_COOKIE["first"]}</b></u></a>
 				<form method="post" action="big5.php"><input type="submit" id="logout" name="logout" value="Log Out"></form>
 			</div>
 WELCOME;
@@ -316,7 +316,7 @@ WELCOME;
 	</div>
 
 	<div>
-	<span class="quest_head">pay attentino to details</span>
+	<span class="quest_head">pay attention to details</span>
 	<br>
 	<br>
 	<input type="hidden" name="q13" value="3" >
@@ -460,7 +460,7 @@ WELCOME;
 	</div>
 
 	<div>
-	<span class="quest_head">have exellent ideas</span>
+	<span class="quest_head">have excellent ideas</span>
 	<br>
 	<br>
 	<input type="hidden" name="q25" value="3" >

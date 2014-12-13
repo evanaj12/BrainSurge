@@ -89,7 +89,7 @@ LOGIN;
 	else{	
 		print <<<WELCOME
 			<div id="welcome">
-				Welcome back, <a href="profile.php"><u><b>{$_COOKIE["user"]}</b></u></a>
+				Welcome back, <a href="profile.php"><u><b>{$_COOKIE["first"]}</b></u></a>
 				<form method="post" action="mb.php"><input type="submit" id="logout" name="logout" value="Log Out"></form>
 			</div>
 WELCOME;
@@ -207,7 +207,7 @@ WELCOME;
 	<input type="radio" name="q9" value="a" required> A: Sensible people<br>
 	<input type="radio" name="q9" value="b"> B: Imaginative people<br>
 	<br>
-<!--
+
 	<span class="quest_head">Question 10</span><br>
 	<span class="quest">Are you more interested in:</span><br>
 	<input type="radio" name="q10" value="a" required> A: What is actual<br>
@@ -573,7 +573,7 @@ WELCOME;
 	<input type="radio" name="q70" value="a" required> A: deliberate than spontaneous<br>
 	<input type="radio" name="q70" value="b"> B: spontaneous than deliberate<br>
 	<br>
--->
+
 	<input type="submit" value="Submit" name="mbti">
 	<input type="reset" value="Reset">
 	</form>
